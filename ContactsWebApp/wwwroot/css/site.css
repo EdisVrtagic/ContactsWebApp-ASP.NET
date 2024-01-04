@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.imgcon img{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+.text-center h1 {
+    font-weight: bold;
+    user-select: none;
+}
